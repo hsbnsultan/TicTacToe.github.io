@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <audio id="backgroundSound" loop>
+      <source src="GoodFellow.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      <button id="start" onclick="startGame()">Start Play</button>
+      <div id="board">
+        <div class="square" id="s1"></div>
+        <div class="square" id="s2"></div>
+        <div class="square" id="s3"></div>
+        <div class="square" id="s4"></div>
+        <div class="square" id="s5"></div>
+        <div class="square" id="s6"></div>
+        <div class="square" id="s7"></div>
+        <div class="square" id="s8"></div>
+        <div class="square" id="s9"></div>
+      </div>
+      <div id="message"></div>
+      <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
